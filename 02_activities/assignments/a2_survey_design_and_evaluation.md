@@ -35,35 +35,39 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 12. Limitations, known biases, etc
 13. Link to documentation and any additional sources used
 
+--------------------------------------------------------------------------------
 
 # Your Changes
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: 1
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of my survey is to get a read of employee satisfaction, and to gain some insight into the factors contributing to employee turnover and areas for improvement - particularly from lower level positions. There will also be an opportunity for open-ended feedback. 
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
 write your answer here...
+target population: All current and recently departed employees in entry- and lower-level roles 
+sampling frame: the company’s HR database
+sampling units: individual employees 
+observational units: individual employees’ responses to the survey
+overall sampling strategy: This will be an anonymous surgvey. The employee (current and past) database is to be clustered by department, and then stratified by salary range within each department to be able to classify lower-level respondents and department specific insights. The opportunity for open-ended feedback will hekp fill any potential gaps in the survey. 
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. You are/were satisfied in your role (Scale: completely disagree (1) to completely agree (5))
+2. You feel your work is/was valued and recognized by your team or supervisors. (Scale: completely disagree (1) to completely agree (5))
+3. You received adequate training and support to perform your job effectively. (Scale: completely disagree (1) to completely agree (5))
+4. How would you rate communication between employees and management? (Scale: Very poor (1) to Excellent (5))
+5. There  are clear opportunities for career development or advancement in your. (Scale: completely disagree (1) to completely agree (5))
+6. How manageable is your workload? (Scale: Overwhelming (1) to Very manageable (5))
+7. The workload matches the salary (Scale: completely disagree (1) to completely agree (5))
+8. Anything else to share? (Open-ended)
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +75,41 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type: 
+stratified two-phase design - random sampling, with 'rejective sampling'
+2. Sample size: 
+approx 20k individuals
+3. Target population: 
+this survey targets all Canadian households and individuals aged 15 years and older
+4. Sampling frame: 
+The SGVP 2023 frame was based on the 2021 long-form Census of Population
+This is a targeted respondent survey. The sampling unit for the first phase (2021 Census of Population) is the household, while that of the second phase is the person.
+5. Survey mode(s):
+Data are collected directly from survey respondents either through an electronic questionnaire (EQ) or through CATI (computer assisted telephone interviewing). 
+6. Timeline:
+Data collection for this reference period: 2023-09-15 to 2024-03-30
+Reference period: Past 12 months preceding interview date
+Frequency: Every 5 years
+The average time to complete the survey is estimated at 45 minutes.
+7. Response rate: 
+The overall response rate was 40.9% (42.2% for the regular sample and 37.1% for the oversample).
+8. Weights: 
+WGHT_PER: This is the basic weighting factor for analysis at the person level, i.e., to calculate estimates of the number of persons (non-institutionalized and aged 15 and over) having one or several given characteristics.
+In addition to the estimation weights, bootstrap weights have been created for the purpose of design-based variance estimation.
+9. Data processing: 
+Income information was obtained by linking to the tax data of respondents who had agreed to the linkage to the 2022 T1 Family File (T1FF). Missing information for other respondents was imputed. The information collected during the 2023 SGVP was also linked with the Longitudinal Immigration Database for completed cases. The linkage falls under the omnibus record linkage authority (Type B) as the linkage will be used for data replacement purposes.
+10. Cleaning, imputation, etc: 
+Records with missing or incorrect information were, in a small number of cases, completed, corrected deterministically, or imputed from other information on the questionnaire. Imputation was carried out in 4 blocks: imputation of personal income and family income; imputation of variables related to donations imputation of the formal volunteering variables; and imputation of the informal volunteering variables.
+Open-ended questions were recoded and recategorized.
+11. Sources of error: 
+coverage/sampling error, measurement error
+12. Limitations, known biases, etc: Non-response bias, response bias, recall bias, cultural bias
+13. Link to documentation and any additional sources used:
+https://www150.statcan.gc.ca/n1/en/catalogue/452500112021001
+https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&amp;SDDS=4430
+The General Social Survey: An Overview
+Last review : January 7, 2021
+Format: The General Social Survey: An Overview - HTML[HTML]
 ```
 
 ## Rubric
